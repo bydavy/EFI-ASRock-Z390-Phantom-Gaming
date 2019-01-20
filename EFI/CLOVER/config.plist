@@ -77,6 +77,20 @@
 					SUdQVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fix AsRock Z390 BIOS DSDT Device(RTC) bug. If BIOS &gt; 1.2</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					oAqTU1RBUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					oAqRCv8L//8=
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>

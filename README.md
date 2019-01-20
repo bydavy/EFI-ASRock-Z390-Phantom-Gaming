@@ -35,7 +35,7 @@
 
 ### Motherboard
 
-Downgrade to [bios 1.20](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp#BIOS). Bios 1.30 and 1.50 hang at "apfs_module" during boot.
+Flash [bios 1.50](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp#BIOS).
 
 Change the following settings:
 
