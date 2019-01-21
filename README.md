@@ -14,21 +14,26 @@
 * [CORSAIR SF Series, SF600, SFX](https://amzn.to/2T1fYu8)
 * [Louqe GHOST S1](http://www.louqe.com/)
 * [Fractal Design Celsius S24](https://amzn.to/2W4Zent)
-* [BCM20702 Bluetooth USB Adapter](https://www.ebay.com/itm/Wireless-Bluetooth-4-0-Dual-Mode-USB-Broadcom-BCM20702-Adapter-Dongle-Receiver-1/231835142274?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649)
+* [BCM94352Z Wi-Fi + BT](https://www.ebay.com/itm/New-BCM94352Z-AC-WIFI-BT-WLAN-CARD-For-LENOVO-N50-70-B50-70-Y40-70-B40-80-Touch/272100347722) (WIP)
 
 ![build](https://raw.githubusercontent.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming-data/master/images/build.jpg)
+
+#### Hardware swap
+
+I plan to swap the Wi-Fi+BT module with BCM94352Z.
 
 ### What works
 
 * Integrated GPU with hardware acceleration
 * Audio
 * Ethernet
-* Bluetooth (usb adapter)
+* Wi-Fi (WIP)
+* Bluetooth (WIP)
 * Sleep
+* Airdrop (WIP)
 
 ### What doesn't work
 
-* Wi-Fi (can be fixed with usb adapter)
 * Thunderbolt Type-C
 
 ## Installation
