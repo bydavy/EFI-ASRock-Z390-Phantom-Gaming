@@ -65,8 +65,8 @@ Change the following settings:
 
 ### Sleep
 
-* Crash on sleep: fix was to install EmuVariableUefi-64.efi
-* Sleep wake cycle: fix was a custom DSDT (somehow an XDCI device was waking it up)
+* Crash on sleep: fix was to install AptioMemoryFix-64.efi and EmuVariableUefi-64.efi
+* Sleep wake cycle: fix was a custom DSDT (somehow an XDCI device was waking up the pc)
 
 ### USB mapping
 
