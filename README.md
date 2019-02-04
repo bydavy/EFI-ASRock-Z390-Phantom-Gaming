@@ -14,23 +14,23 @@
 * [CORSAIR SF Series, SF600, SFX](https://amzn.to/2T1fYu8)
 * [Louqe GHOST S1](http://www.louqe.com/)
 * [Fractal Design Celsius S24](https://amzn.to/2W4Zent)
-* [BCM94352Z Wi-Fi + BT](https://www.ebay.com/itm/New-BCM94352Z-AC-WIFI-BT-WLAN-CARD-For-LENOVO-N50-70-B50-70-Y40-70-B40-80-Touch/272100347722) (WIP)
+* [BCM94352Z Wi-Fi + BT](https://www.ebay.com/itm/New-BCM94352Z-AC-WIFI-BT-WLAN-CARD-For-LENOVO-N50-70-B50-70-Y40-70-B40-80-Touch/272100347722)
 
 ![build](https://raw.githubusercontent.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming-data/master/images/build.jpg)
 
 #### Hardware swap
 
-I plan to swap the Wi-Fi+BT module with BCM94352Z.
+I swapped the integrated Wi-Fi+BT module with BCM94352Z. It is an easy process, two screws and you can replace it. Antenna are unchanged.
 
 ### What works
 
 * Integrated GPU with hardware acceleration
 * Audio
 * Ethernet
-* Wi-Fi (WIP)
-* Bluetooth (WIP)
+* Wi-Fi
+* Bluetooth
 * Sleep
-* Airdrop (WIP)
+* Airdrop
 
 ### What doesn't work
 
@@ -65,7 +65,10 @@ Change the following settings:
 2. Bluetooth
  * BrcmFirmwareRepo.kext
  * BrcmPatchRAM2.kext
-3. Ethernet
+ * BT4LEContiunityFixup
+3. Wi-Fi
+ * AirportBrcmFixup
+4. Ethernet
  * IntelMausiEthernet.kext
 
 ### Sleep
