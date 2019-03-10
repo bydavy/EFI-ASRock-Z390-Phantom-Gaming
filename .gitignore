@@ -1,5 +1,6 @@
 .fseventsd/
 .metadata_never_index
 EFI/APPLE
+EFI/CLOVER/misc/
 EFI/Microsoft
 nvram.plist
