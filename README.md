@@ -60,7 +60,6 @@ Change the following settings:
 ### Kext
 
 1. Audio
- * AppleALC.kext
  * VoodooHDA.kext
 2. Bluetooth
  * BrcmFirmwareRepo.kext
