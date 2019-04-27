@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>11G63</string>
+	<string>17G3025</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,25 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.9.0d10</string>
+	<string>2.9.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>2.9.0d10</string>
+	<string>2.9.1</string>
 	<key>DTCompiler</key>
-	<string></string>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>4F1003</string>
+	<string>10B61</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11G63</string>
+	<string>18B71</string>
 	<key>DTSDKName</key>
-	<string></string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>0441</string>
+	<string>1010</string>
 	<key>DTXcodeBuild</key>
-	<string>4F1003</string>
+	<string>10B61</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>VoodooHDA</key>
@@ -63,13 +67,13 @@
 			<key>MixerValues</key>
 			<dict>
 				<key>PCM</key>
-				<integer>100</integer>
+				<integer>90</integer>
 				<key>Rec</key>
 				<integer>90</integer>
 				<key>iGain</key>
 				<integer>90</integer>
 				<key>iMix</key>
-				<integer>100</integer>
+				<integer>90</integer>
 			</dict>
 			<key>NodesToPatch</key>
 			<array>
