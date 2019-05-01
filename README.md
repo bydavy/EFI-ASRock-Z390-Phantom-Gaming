@@ -61,6 +61,7 @@ Change the following settings:
 
 1. Audio
  * VoodooHDA.kext
+ * CodecCommander.kext
 2. Bluetooth
  * BrcmFirmwareRepo.kext
  * BrcmPatchRAM2.kext
@@ -74,6 +75,7 @@ Change the following settings:
 
 * Crash on sleep: fix was to install AptioMemoryFix-64.efi and EmuVariableUefi-64.efi
 * Sleep wake cycle: fix was a custom DSDT (somehow an XDCI device was waking up the pc)
+* No audio after sleep (started on 10.14.4). The fix has been to add CodecCommander.kext and darkwable=8 in boot arguments of config.list
 
 ### USB mapping
 
