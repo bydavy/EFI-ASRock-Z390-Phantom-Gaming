@@ -63,7 +63,7 @@ Change the following settings:
  * VoodooHDA.kext
  * CodecCommander.kext
 2. Bluetooth
- * BrcmFirmwareRepo.kext
+ * BrcmFirmwareData.kext
  * BrcmPatchRAM2.kext
  * BT4LEContiunityFixup
 3. Wi-Fi
